@@ -1,10 +1,11 @@
-#Sublime Text Support
+#Sublime Text Plugin for Docular
 
 So putting inline documentation within your script files can get a little unruly. Your script files should be fairly small to begin with, but sometimes the documentation that is displayed to those interested in learning your software can burden those looking at the code on a day to day basis.
 
-# Use these documentation conventions to optimize your efficiency
+### Use these documentation conventions to optimize your efficiency
 
 1. Use comment blocks for documentation that should show in the generated docs. These comments are best to describe API usage.
+
 ```js
 /**
  * @doc module
@@ -17,6 +18,7 @@ So putting inline documentation within your script files can get a little unruly
 */
 ```
 2. Use single line comments to communicate to other developers the specifics of your code.
+
 ```js
 // This is a comment for developers
 // This gives additional info not already provided by good coding practices ;-)
