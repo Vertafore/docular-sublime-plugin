@@ -4,7 +4,7 @@ So putting inline documentation within your script files can get a little unruly
 
 ### Use these documentation conventions to optimize your efficiency
 
-1. Use comment blocks for documentation that should show in the generated docs. These comments are best to describe API usage.
+* Use comment blocks for documentation that should show in the generated docs. These comments are best to describe API usage.
 
 ```js
 /**
@@ -17,7 +17,7 @@ So putting inline documentation within your script files can get a little unruly
  * This same information should probably be hidden during development
 */
 ```
-2. Use single line comments to communicate to other developers the specifics of your code.
+* Use single line comments to communicate to other developers the specifics of your code.
 
 ```js
 // This is a comment for developers
@@ -34,25 +34,28 @@ Once you add the plugin and add the key bindings, you can quickly toggle the vis
 
 ##Sublime Plugin Installation
 
-1. Download the plugin from Github
+* Download the plugin from Github
 
-2. Open Sublime Text, and choose:
+* Open Sublime Text, and choose:
+
 ```bash
     preferences > Browse Packages
 ```
-3. Navigate to the "Packages/User/" directory
-4. Drag the downloaded plugin file "docular.py" into the "Packages/User/" directory
+* Navigate to the "Packages/User/" directory
+* Drag the downloaded plugin file "docular.py" into the "Packages/User/" directory
 
 ###Done! Keyboard Shortcut Time
 
 Now that you have added the "docular.py" plugin to Sublime, it's time to add keybindings to your user profile so you can quickly access the plugin's functionality.
 
-1. With Sublime open, choose <code>Preferences > Key Bindings - User</code>
-2. Add this line in JSON format to the array in this file
+* With Sublime open, choose <code>Preferences > Key Bindings - User</code>
+* Add this line in JSON format to the array in this file
+
 ```js
 [
     { "keys": ["command+shift+d"], "command": "docular_toggle" }
 ]
 ```
-3. Close Sublime, re-open Sublime.
-4. Now open a file that has comment blocks within it. Hit "command+shift+d" (on Mac) to toggle the comment blocks.
+
+* Close Sublime, re-open Sublime.
+* Now open a file that has comment blocks within it. Hit "command+shift+d" (on Mac) to toggle the comment blocks.
